@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(19, 18, 18, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #1a21b8;
   text-decoration: inherit;
 }
 a:hover {
@@ -66,3 +66,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.Nav{
+  background-color: rgb(136, 11, 11);
+  padding: auto;
+  margin: 0px;
+}
+
