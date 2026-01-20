@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from './components/card'
-const App = () => {
+const App = ()  => {
   return (
     <div className='parent'>
    
-     <Card/>
+     <Card user='Aman' />
      </div>
   )
 }
