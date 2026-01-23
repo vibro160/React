@@ -1,45 +1,99 @@
-
-
-body{
+body {
   height: 100vh;
   width: 100vw;
-  
-  
+
+
 }
 
 
 
-.parent{
+.parent {
   height: 100vh;
-   width: 100%;
-   background-color: rgb(10, 10, 10);
-   padding: 30px;
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  padding: 30px;
 }
-.card{
-  height: 500px;
-  width: 300px;
-  background-color: #dbd2d2;
+
+.card {
+  height: 300px;
+  width: 260px;
+  background-color: #d8cfcf;
   border-radius: 40px;
   padding: 30px;
- 
-}
-.card.top{
   display: flex;
-  align-items:center;
+  flex-direction: column;
   justify-content: space-between;
+
 }
-.top img{
-  height: 35px;
-  width: 35px;
-  border-radius:50% ;
-  border:1px solid #dadadd;
+
+.top {
+  display: flex; 
+   align-items: center; 
+   justify-content: space-between;
+}
+
+.top img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid #dadadd;
   padding: 2px;
 }
-.top button{
+
+.top button {
   display: flex;
-  align-items:center;
+  align-items: center;
   border: 1px solid #dadadd;
   padding: 4px 8px;
   font-size: 14px;
   border-radius: 5px;
+}
+
+.center{
+  padding: 0px;
+  margin: 0px;
+}
+
+.center h3{
+  font-size: 25px;
+  font-weight: 500px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.center h2{
+  padding: 0px;
+  font-size: 17px;
+  padding: 0px;
+  margin: 0px;
+}
+.center h3 span{
+  font-size: 15px;
+  font-weight: 400px;
+  color: #5e5c5c;
+   padding-left: 3px;
+}
+.center .tag{
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  margin: 0px;
+}
+.center .tag h4{
+  font-size: 14px;
+  background-color: #bababe;
+  color: #111;
+  padding: 2px 6px;
+  font-weight: 400px;
+  border-radius: 10px;
+
+  margin: 0px;
+
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 10px;
 }
